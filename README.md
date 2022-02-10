@@ -22,3 +22,6 @@ Then CobaltBus DotNetCore binary that integrates with CobaltStrikes ExternalC2, 
 
 # Opsec considerations
 The current message flow has multiple flaws that would need to be addressed before I would consider using this for real-life operations. Consider this a dirty POC. If only there was a mouse and C2 expert that could make this safe to use....
+
+# Credits
+Major credit to the work done by @ryHanson https://github.com/ryhanson/ExternalC2
