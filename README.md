@@ -7,10 +7,11 @@ Cobalt Strike External C2 Integration With Azure Servicebus, C2 traffic via Azur
  
 1. Create an Azure Service Bus 
 2. Create a Shared access policy (Connection string) that can only Send and Listen
-3. Edit the static connectionString variable in Beacon C# projects to match the "Primary Connection String" value for the Shared access policy created in step 2. The same variables need to be updated for the CobaltBus project, but the "Primary Connection String" for the default Shared access policy must be used (Needs the "manage" permission )
-4. Setup Cobalt and start en External C2 listener on port 4444, 127.0.0.1 (can be changed by editing the ExternalC2Port ExternalC2Ip vars in the C# project)
+3. Edit the static connectionString variable in Beacon C# projects to match the "Primary Connection String" value for the Shared access policy created in step 2. 
+4. The same variables need to be updated for the CobaltBus project, but the "Primary Connection String" for the "RootManageSharedAccessKey" Shared access policy must be used. (Needs the "manage" permission)
+5. Setup Cobalt and start en External C2 listener on port 4444, 127.0.0.1 (can be changed by editing the ExternalC2Port ExternalC2Ip vars in the C# project)
 
-# Video
+# Demo Video
 
 [![Demo YouTube video](https://img.youtube.com/vi/yhgsYWskz4E/0.jpg)](https://www.youtube.com/watch?v=yhgsYWskz4E)
 
