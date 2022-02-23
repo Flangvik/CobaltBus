@@ -1,7 +1,7 @@
 # CobaltBus
 Cobalt Strike External C2 Integration With Azure Servicebus, C2 traffic via Azure Servicebus
 
-
+![FlowDiag](https://user-images.githubusercontent.com/23613997/155399921-36da9578-9f85-465d-a54e-a6e3e0502ca0.png)
 
 # Setup
  
